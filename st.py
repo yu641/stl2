@@ -16,7 +16,7 @@ with col_2:
     st.subheader('산업안전')
     img2 = Image.open('img2.jpg')
     st.image(img2, width=300)
-
+st.write('')
 
 st.header('관심사항')
 tab_1, tab_2, tab_3 = st.tabs(['대중교통 지역 불균형','성별','연령대'])
@@ -38,6 +38,7 @@ with tab_2:
     st.markdown(' - 품질: FMEA, Fishbone Diagram → 안전사고 원인 분석')
     st.markdown(' - 공정개선: 위험 작업 공정 재설계, 자동화')
     st.markdown(' - 데이터 분석: 위험성 평가')
+st.write('')
 
 st.header('관심기업')
 col_1, col_2= st.columns([1,1])
